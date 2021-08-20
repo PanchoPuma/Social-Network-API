@@ -1,0 +1,25 @@
+{
+  "name": "socialnetworkapi",
+  "version": "1.0.0",
+  "description": "This is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanchoPuma/Social-Network-API.git"
+  },
+  "author": "Francisco Puma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PanchoPuma/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/PanchoPuma/Social-Network-API#readme"
+}
