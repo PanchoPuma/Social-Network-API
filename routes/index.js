@@ -1,7 +1,7 @@
 const router = require('express').Router();
-const APIroutes = require('./APIroutes/');
+const APIroutes = require('./api');
 
-router.use('/APIroutes', APIroutes);
+router.use('/api', APIroutes);
 
 router.use((req, res) => {
     res.status(404).send('404 Error!');
