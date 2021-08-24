@@ -109,7 +109,7 @@ const thoughtController = {
     deletedReaction({ params, body }, res) {
         thought.findOneAndUpdate(
             { _id: params.thoughtId },
-            { $pull: { reactions: { reactionId: body.reactionId } } },
+            { $pull: { reactions: body } },
             { new: true, runValidators: true }
         )
             .then(dbThoughtData => {
@@ -117,7 +117,7 @@ const thoughtController = {
                     res.status(404).json({ message: 'No matching data' });
                     return;
                 }
-                res.json((deletedReaction),{ message: 'Successful' });
+                res.json((deletedReaction), { message: 'Successful' });
             })
             .catch(err => res.status(500).json(err));
     },
