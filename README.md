@@ -3,7 +3,7 @@
 
 ## Description
 
-This repository contains a Social media API that can be used with the Insomnia Core App. With this APi, you can create new users and said users can share their thoughts, react to friends’ thoughts, and add friends.
+This repository contains a Social media API that can be used to create new users and in turn they can share their thoughts, react to friends’ thoughts, and add friends. To test this application and view the results, without a front end, please use the Insomnia Core App, as shown in the screenshots below. 
 
 ## Screenshots
 
